@@ -1,0 +1,39 @@
+{
+    "name": "PlayerInput",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "5c6da54e-8d43-4bca-955e-506d117cae24",
+            "actions": [
+                {
+                    "name": "MoveToNextPlayerState",
+                    "type": "Button",
+                    "id": "df98a74d-6cae-472f-97b0-d1ab097c2d2c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Tap"
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2b85de67-8485-42d6-b9f9-0351e45cee57",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MobileInput",
+                    "action": "MoveToNextPlayerState",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "MobileInput",
+            "bindingGroup": "MobileInput",
+            "devices": []
+        }
+    ]
+}

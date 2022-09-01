@@ -15,7 +15,7 @@ public class WaypointSystem : MonoBehaviour
     {
         MoveAgent();
     }
-    private void MoveAgent()
+    public void MoveAgent()
     {
         Transform target = _points[_currentPoint];
         _navMeshAgent.destination = target.position;

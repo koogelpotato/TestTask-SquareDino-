@@ -58,11 +58,11 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\WaypointSystem.cs" />
     <Compile Include="Assets\Scripts\PlayerStateManager.cs" />
+    <Compile Include="Assets\Scripts\PlayerInput.cs" />
     <Compile Include="Assets\Scripts\ConcretePlayerStates.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerState.cs" />
     <Compile Include="Assets\Scripts\MovePoint.cs" />
-    <Compile Include="Assets\Scripts\PlayerInput.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

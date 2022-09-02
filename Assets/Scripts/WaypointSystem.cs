@@ -13,7 +13,7 @@ public class WaypointSystem : MonoBehaviour
     }
     private void Update()
     {
-        MoveAgent();
+
     }
     public void MoveAgent()
     {
@@ -27,5 +27,9 @@ public class WaypointSystem : MonoBehaviour
         {
             _currentPoint = 0;
         }
+    }
+    public void PauseAgent()
+    {
+        _navMeshAgent.destination = transform.position;
     }
 }

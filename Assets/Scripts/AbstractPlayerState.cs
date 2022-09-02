@@ -10,11 +10,12 @@ namespace Assets.Scripts
     {
         protected readonly WaypointSystem _waypointSystem;
         protected readonly IStationStateSwitcher _stateSwitcher;
-
-        protected AbstractPlayerState(WaypointSystem waypointSystem, IStationStateSwitcher stateSwitcher)
+        protected readonly Shooting _shooting;
+        protected AbstractPlayerState(WaypointSystem waypointSystem, IStationStateSwitcher stateSwitcher, Shooting shooting)
         {
             _waypointSystem = waypointSystem;
             _stateSwitcher = stateSwitcher;
+            _shooting = shooting;
         }
         public abstract void MoveCharacter();
         public abstract void Shoot();
